@@ -1,0 +1,418 @@
+body,
+header,
+nav,
+main,
+footer,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bcd8e7;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p,
+li {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #008CBA;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    border-bottom: 5px solid #006e94;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #006e94;
+    margin: 0;
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.welcome-title {
+    text-align: left;
+    font-size: 2.4em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #004d66;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #b7dce8;
+}
+
+
+main {
+    background-color: #98c7d7;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.7em;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+.size {
+    font-size: 1.4em;
+}
+
+h2,
+h3 {
+    color: #006e94;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin: 25px auto;
+    width: 100%;
+    max-width: 750px;
+    border-radius: 10px;
+    border: 2px solid #cfe7f5;
+}
+
+.Announcementsimg {
+    float: right;
+    width: 280px;
+    border-radius: 10px;
+    border: 2px solid #b8e2f2;
+    position: relative;
+    right: -10px;
+    top: -10px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #046687;
+    text-align: center;
+    padding: 18px;
+    margin-top: 35px;
+    color: white;
+    border-top: 3px solid #006e94;
+    width: 100%;
+    clear: both ;
+    display: block;
+    width: 100%;
+    margin-top: 2em;
+}
+
+
+
+#offer {
+    color: #333366;
+}
+
+#Routine,
+#Root,
+#Cosmetic,
+#Emergency,
+#Orthodontics {
+    background-color: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+#Routine h1,
+#Root h1,
+#Cosmetic h1,
+#Emergency h1,
+#Orthodontics h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #111;
+    text-align: left;
+}
+
+#Routine img,
+#Root img,
+#Cosmetic img,
+#Emergency img,
+#Orthodontics img {
+    display: block;
+    width: 100%;
+    max-width: 950px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+
+#Routine p,
+#Root p,
+#Cosmetic p,
+#Emergency p,
+#Orthodontics p {
+    font-size: 1.3em;
+}
+
+main h1,
+main h2,
+main h3 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #000000;
+}
+
+main p,
+main li {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.15em;
+    line-height: 1.6;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+main ul {
+    margin-left: 25px;
+}
+
+main img {
+    border-radius: 10px;
+    margin: 25px auto;
+    display: block;
+}
+
+.staff-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.staff-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 0 auto 15px auto;
+}
+
+.homeimg {
+    width: 100%;
+    max-width: 980px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: block;
+    border: 2px solid #cfcfcf;
+}
+
+.looks {
+    font-size: 1.35em;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#firstdr,
+#seconddr,
+#newdr,
+#caller {
+    width: 40%;
+    float: left;
+    margin: 3em 1.5% 3.5em 1.5%;
+    background-color: #F5F9F6;
+    padding: 2.2em;
+    border-radius: 12px;
+    border: 1px solid #E1EDE2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 540px;
+}
+
+#firstdr h3,
+#seconddr h3,
+#newdr h3,
+#caller h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #003366;
+}
+.heading{
+    font-size: 2.3em;
+}
+
+#firstdr img,
+#seconddr img,
+#newdr img,
+#caller img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1.4em;
+}
+
+
+#firstdr p,
+#seconddr p,
+#newdr p,
+#caller p {
+    text-align: center;
+}
+
+#contact a {
+    color: rgb(255, 127, 127);
+    text-decoration: none;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.8em;
+    color: #222;
+}
+
+.aboutsection {
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 35px;
+    width: 95%;
+    max-width: 1200px;
+    margin: 35px auto;
+    overflow: hidden;
+}
+
+.aboutimg {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.abouttext {
+    font-size: 1.3em;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.missionbox {
+    background-color: #faf6f6ef;
+    border: 1px solid #c5e1c5;
+    border-radius: 12px;
+    padding: 25px;
+    width: 95%;
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.missionbox h3 {
+    color: #2b572b;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.missionbox p {
+    font-size: 1.3em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.discount {
+    background-color: #b8e2f2;
+    border: 1px solid #b8e2f2;
+    border-radius: 12px;
+    padding: 20px;
+    width: 95%;
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#em {
+    font-size: 1.2em;
+}
+
+.emimg {
+    width: 100%;
+    max-width: 950px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 15px auto;
+}
