@@ -1,0 +1,130 @@
+<!-- Author name: MOHAMMED KANNIPOYIL 
+   STUDENT ID : 14975069 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Booking – 100SMILES Dental Care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="Java Script/script.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>100SMILES Dental Care</h1>
+
+    <!-- HAMBURGER BUTTON (MOBILE ONLY) -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="staff.html">Our Staff</a>
+        <a href="offers.html">Offers & Events</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+<section class="top-heading">
+    <h2>Contact & Appointment Booking</h2>
+</section>
+
+<section class="hero-section">
+    <div class="hero-text">
+        <p class="size">
+            We’re here to assist you with bookings, enquiries, emergencies, and general questions.
+            Our clinic welcomes families, children, and seniors with caring support.
+        </p>
+
+        <p class="size"><strong>📍 Clinic Address:</strong><br>
+            33 Fantail Street, Razole, Queensland</p>
+
+        <p class="size"><strong>📞 Phone:</strong> 07 1327 5599</p>
+
+        <p class="size"><strong>📧 Email:</strong> admin@100smilesdentalcare.com.au</p>
+
+        <p class="size"><strong>⏰ Opening Hours:</strong><br>
+            Monday–Friday: 8:30 AM – 6:30 PM<br>
+            Saturday: 8:30 AM – 1:00 PM<br>
+            Sunday: Closed</p>
+    </div>
+
+    <div class="hero-image-wrapper">
+        <img src="Images/service image.jpeg" class="hero-image" alt="Contact 100SMILES">
+    </div>
+</section>
+
+<section class="missionbox" style="margin-top:30px;">
+    <h3>Book Your Appointment</h3>
+
+    <p class="size">
+        Fill out the form below and our receptionist will confirm your appointment.
+    </p>
+
+    <p class="size" style="margin-top:20px;">
+        In addition, <strong>100SMILES Dental Care</strong> is thrilled to introduce our 
+        <strong>new online booking system</strong>, making appointment scheduling more convenient 
+        than ever. You may book online at any time, or if you prefer, feel free to give us a call.
+    </p>
+
+    <p class="size" style="margin-bottom:20px;">
+        Furthermore, we are excited to announce a <strong>new callout free trial for Dental Check-up</strong> 
+        for our valued clients. This initiative aims to enhance your experience and provide seamless 
+        access to quality dental care.
+    </p>
+
+    <form id="bookingForm" class="size" style="margin-top:20px;">
+        <label><strong>Full Name:</strong></label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label><strong>Email Address:</strong></label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label><strong>Phone Number:</strong></label><br>
+        <input type="tel" name="phone" required><br><br>
+
+        <label><strong>Preferred Date:</strong></label><br>
+        <input type="date" name="date" required><br><br>
+
+        <label><strong>Preferred Time:</strong></label><br>
+        <input type="time" name="time" required><br><br>
+
+        <label><strong>Reason for Visit:</strong></label><br>
+        <textarea name="message" rows="4" placeholder="Check-up, cleaning, emergency, etc..." required></textarea><br><br>
+
+        <button type="submit" class="book-button">Submit Booking Request</button>
+    </form>
+
+    <div id="confirmMessage" class="confirm-box" style="display:none;">
+        ✅ Your booking request has been recorded.<br>
+        Our receptionist will contact you soon to confirm your appointment.
+    </div>
+</section>
+
+<div class="booking-cta">
+    <h3>Emergency Dental Care </h3>
+    <p class="size">If you are experiencing severe dental pain or an injury or any other enquiry, please call us or sent a mail.</p>
+   <a href="tel:0713275599" class="book-button">Call Now</a>
+<a href="mailto:admin@100smilesdentalcare.com.au" class="book-button">Email Us</a>
+
+</div>
+
+<section class="aboutsection" style="margin-top:30px;">
+    <h3 style="margin-bottom:15px;">Find Us</h3>
+    <p class="size">Locate our clinic on the map below.</p>
+
+    <iframe 
+        src="https://www.google.com/maps?q=33+Fantail+Street+Razole+Queensland&output=embed"
+        width="100%" height="350" style="border-radius:10px; border:2px solid #cfe7f5;">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 100SMILES Dental Care</p>
+</footer>
+
+</body>
+</html>
